@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div id="head">
+        <h1> Editar Titulo</h1>
+        <h2 id="titulo"> Titulo </h2>
+        <input type="text" id="input" disabled value="Ainda n clicou">
+        <input type="text" id="getText" placeholder="Insira um Texto Aqui: ">
+        <input type="text" id="getCor" placeholder="Digite uma cor: ">
+        <input type="text" id="getCorDeDunfo" placeholder="Digite uma cor de fundo: ">
+        <button onclick="EditaTitulo()"> Editar: </button>
+    </div>
+    <div>
+        <h1> Edites Com Cliques </h1>
+        <h2 id="Clique" onclick="MudaCss()" > Não Esta Clicando </h2>
+    </div>
+
+    <input type="text" name="" id="escreve" onchange="Atualizar()">
+    <input type="text" name=""  value="" id="muda" disabled>
+
+    <div id="divDoMouse">
+        <h1> Brincando com o mouse</h1>
+        <h3 onmouseover="mouseOver()" onmouseout="mouseOut()" id="mouse"> vem k </h3>
+    </div>
+    <div>
+        <h1> Troca Para maiusculo</h1>
+        <input onchange="Maiusculo()" type="text" name="" id="pegarNome">
+    </div>
+   
+    
+
+</body>
+</html>

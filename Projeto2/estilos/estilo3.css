@@ -1,0 +1,32 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    
+    text-align: center;
+}
+
+div#d1:hover{
+    background-color: green;
+}
+
+div#d2:hover{
+    background-color: yellow;
+}
+
+div#d3:hover{
+    background-color: red;
+}
+
+div#d4:hover{
+    background-color: lightskyblue;
+}
+
+div:hover{
+    display: block;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientado a Objeto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+
+    <div id="head">
+        <h1> Le Informações</h1>
+        <input type="text" name="Nome" id="Nome" placeholder="Nome:">
+        <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome:">
+        <input type="text" name="Idade" id="Idade" placeholder="Idade:">
+        <input type="text" name="Olhos" id="Olhos" placeholder="Olhos:">
+        <h1> Botão Submit </h1>
+        <input type="button" value="Submit:" onclick="Submit()">
+    </div>
+    <div id="body">
+        <h1> Mostra oque foi digitado em Input</h1>
+        <input type="text" name="Nome" id="ColaNome" disabled value="">
+        <input type="text" name="Sobrenome" id="ColaSobrenome" disabled value="">
+        <input type="text" name="Idade" id="ColaIdade" disabled value="">
+        <input type="text" name="Olhos" id="ColaOlhos" disabled value="">
+    </div>
+    <div>
+        <h1> Mostra oq foi digitado em p</h1>
+        <p id="cola"></p>
+    </div>
+    <div>
+        <h1> Adiciona Campo </h1>
+        <input type="text" name="" id="nomeVariavel" value="" placeholder="Variavel: ">
+        <input type="text" name="" id="valorVariavel" value="" placeholder="Valor: ">
+        <input type="submit" value="Adicionar Variavel" id="" onclick="AddVar()">
+        
+        <h1> Deleta Item </h1>
+        <input type="text" name="" id="deletavel" value="" placeholder="Delete: ">
+        <input type="submit" value="Deletar" id="variavel" onclick="DeletaAlgo()">
+    </div>
+
+    <div>
+        <h1> Cadastra Gente</h1>
+        <input type="text" name="" id="CadastraNome" placeholder="Nome:">
+        <input type="text" name="" id="CadastraSobrenome" placeholder="Sobrenome:">
+        <input type="text" name="" id="CadastraIdade" placeholder="Idade:">
+        <input type="text" name="" id="CadastraOlhos" placeholder="Olhos:">
+        <h1> Botão Submit </h1>
+        <input type="button" value="Submit:" onclick="CadastraGente()">
+    </div>
+    
+</body>
+</html>

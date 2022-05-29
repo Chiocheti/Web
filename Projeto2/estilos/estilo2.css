@@ -1,0 +1,41 @@
+body{
+    background-color: #87cee0;
+    font-family: normal 16px Arial, Verdana, serif;
+    
+}
+
+h1{
+    color: #0d404d;
+    
+}
+
+h1.Principal{
+    text-align: center;
+    color: #fdfdfd;
+    background-color: #358497;
+}
+
+h2{
+    color:  #093f4d;   
+}
+
+.basico{
+    color: #247903;
+}
+
+.intermediario{
+    color: #998b0d;
+}
+
+.avancado{
+    color: #700b0b;
+}
+
+.destaque{
+    background-color: #ffe600 ;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}

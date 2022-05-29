@@ -1,0 +1,20 @@
+#titulo{
+    text-align: center;
+    color: red;
+}
+
+.H1doClique{
+    background-color: aqua;
+    color: green;
+    text-align: center;
+}
+.mouseOver{
+    background-color: red;
+    color: black;
+    text-align: right;
+}
+.mouseOut{
+    background-color: purple;
+    color: brown;
+    text-align: center;
+}

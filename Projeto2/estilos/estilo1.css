@@ -1,0 +1,39 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    
+    
+}
+
+#degrade{
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px  5px  #1219a8b6;
+}
+
+
+
+body{
+    background-image: linear-gradient(to right , #2C34D1 , #24DAE0 , #2588E8 , #692BBD , #C92ADB);
+}
+
+h1{
+    color: #24DAE0;
+    text-align: center;
+    box-shadow: 1px 1px 2px #0b9195a1;
+}
+
+h2{
+    color: #C92ADB;
+}
+
+#alinhamento{
+    font: normal 16px Arial, Verdana, serif;
+    font-size: large;
+}
